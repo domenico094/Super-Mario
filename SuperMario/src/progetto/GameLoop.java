@@ -23,7 +23,9 @@ public class GameLoop extends Thread{
 				e.printStackTrace();
 			}
 			if(game.getStato() == Stato.START) {
+				
 				game.aggiorna();
+				
 			}
 		}
 	}
